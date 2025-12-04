@@ -26,3 +26,15 @@ console.log (typeof null); // object (null is considered an object in JavaScript
 console.log (typeof undefined); // undefined
 console.log (typeof NaN); // number (NaN stands for Not-a-Number, but its type is number)
 
+/*
+primitive datatypes in js are:
+1. number
+2. string
+3. boolean
+4. null
+5. undefined
+6. symbol (introduced in ES6)
+
+non-primitive or reference datatype in js is:
+1. object (which includes arrays, functions, etc.)
+*/

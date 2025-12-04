@@ -1,0 +1,36 @@
+//conversion of number to string
+let marks =  78;
+
+console.log (typeof marks);
+
+let value = String(marks);
+
+console.log (typeof value);
+console.log(value);
+
+//converting boolean to number
+let a =  true;
+
+console.log (typeof a);
+
+let b = Number(a);
+
+console.log (typeof b);
+console.log(b);
+
+//converting string to number
+let str = "1234";  
+
+console.log (typeof str);
+
+let num = Number (str);
+
+console.log (typeof num);
+console.log (num);
+
+/*
+similarly we can convert other datatypes too using
+String() function to convert to string datatype
+Number() function to convert to number datatype
+Boolean() function to convert to boolean datatype
+*/
